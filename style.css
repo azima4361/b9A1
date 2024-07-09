@@ -251,9 +251,10 @@ padding: 10px;
 .holiday-section-container{
     width: 1120px;
     height: 700px;
-    border: 1px solid red;
+    
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
     position: relative;
 }
 .holiday-text{
@@ -295,10 +296,10 @@ height: 260px;
 }
 .solid-color{
     width: 1120px;
-    height: 300px;
+    height: 200px;
   background-color: red;
   position: absolute;
-  top: 100%;
+  top: 80%;
 }
 .giftbox{
     width: 396.46px;
@@ -323,4 +324,57 @@ top: -50%;
     left: 35%;
     z-index: 1;
 
+}
+
+.portfolio-container{
+    width: 1120px;
+    height: 700px;
+   
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.portfolio-text{
+    margin-bottom: 30px;
+}
+.portfolio-text h5{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.portfolio-text h2{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.portfolio-text p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.portfolio-items{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+}
+.item{
+    width: 324px;
+height: 350px;
+}
+.item img{
+    width: 100%;
+height: 100%;
 }
