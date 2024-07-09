@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Merriweather", serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.banner-container{
+    max-width: 1220px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* background-image: url("/B9A1-New-Year-New-Mission/resources/Banner\ Image.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+
+background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("/B9A1-New-Year-New-Mission/resources/Banner\ Image.png");
+    /* background-color: rgba(0,0,0,0.5); */
+    /* background-blend-mode: overlay; */
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.banner-content p,h1{
+    color: white;
+}
+.banner-content p{
+    font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+}
+.banner-content h1{
+    font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0%;
+}
+
+.second-section{
+    width: 802.9px;
+height: 506px;
+margin: 0 auto;
+margin-top: 30px;
+border: 1px solid red;
+}
